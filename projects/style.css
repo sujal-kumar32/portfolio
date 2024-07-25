@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+/* Done in seconds copy/paste navebar */
+.navebar {
+  height: 164px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  color: rgb(223, 204, 204);
+  line-height: 150%;
+  font-size: 20px;
+  font-weight: medium;
+}
+#site {
+  height: 30;
+  width: 95px;
+  position: absolute;
+  left: 80px;
+  top: 67px;
+}
+a {
+  text-decoration: none;
+  color: rgb(223, 204, 204);
+}
+.navebar > .url {
+  height: 30px;
+  width: 310px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 1050px;
+  top: 56;
+  align-items: center;
+}
+
+#projects {
+  height: 30px;
+  width: 79px;
+}
+
+#about {
+  height: 30px;
+  width: 79px;
+}
+
+#contact {
+  height: 30px;
+  width: 79px;
+}
+
+/* Done in seconds copy/paste about */
+.about {
+  height: 173px;
+  width: 733px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 244px;
+  left: 81px;
+}
+#name {
+  height: 77px;
+  width: 572px;
+
+  font-weight: bold;
+  font-size: 64px;
+}
+#yourself {
+  height: 72px;
+  width: 572px;
+
+  font-size: 24px;
+  line-height: 150%;
+}
+#pic1 {
+  height: 650px;
+  width: 1281px;
+  position: absolute;
+  top: 497px;
+  left: 80px;
+
+  background-image: url("images1.jpg");
+  background-size: cover;
+  border-radius: 2%;
+}
+#content {
+  height: 450px;
+  width: 842px;
+  position: absolute;
+  top: 1227px;
+  left: 299px;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 150%;
+}
+.pic2 {
+  height: 436px;
+  width: 1281px;
+  position: absolute;
+  top: 1757px;
+  left: 81px;
+
+  display: flex;
+  justify-content: space-between;
+}
+#photo1 {
+  background-image: url("images2.jpg");
+  background-size: cover;
+  border-radius: 2%;
+  height: 436px;
+  width: 624px;
+}
+#photo2 {
+  background-image: url("images3.jpg");
+  background-size: cover;
+  border-radius: 2%;
+  height: 436px;
+  width: 624px;
+}
+#content2 {
+  height: 270px;
+  width: 842px;
+  position: absolute;
+  top: 2273px;
+  left: 299px;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 150%;
+}
+#related {
+  height: 44px;
+  width: 625px;
+  position: absolute;
+  top: 2663px;
+  left: 80px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 110%;
+}
+.pic3 {
+  height: 434px;
+  width: 1276px;
+  position: absolute;
+  top: 2739px;
+  left: 81px;
+
+  display: flex;
+  justify-content: space-between;
+}
+/* photo 3 */
+.photo3 {
+  height: 434px;
+  width: 404px;
+}
+#picture1 {
+  height: 346px;
+  width: 404px;
+  background-image: url("images4.jpg");
+  background-size: cover;
+  border-radius: 2%;
+}
+#text1 {
+  height: 64px;
+  width: 404px;
+  font-weight: medium;
+  line-height: 150%;
+  font-size: 20px;
+}
+/* photo 4 */
+.photo4 {
+  height: 434px;
+  width: 404px;
+}
+#picture2 {
+  height: 346px;
+  width: 404px;
+  background-image: url("images5.jpg");
+  background-size: cover;
+  border-radius: 2%;
+}
+#text2 {
+  height: 64px;
+  width: 404px;
+  font-weight: medium;
+  line-height: 150%;
+  font-size: 20px;
+}
+/* photo 5 */
+.photo5 {
+  height: 434px;
+  width: 404px;
+}
+#picture3 {
+  height: 346px;
+  width: 404px;
+  background-image: url("images6.jpg");
+  background-size: cover;
+  border-radius: 2%;
+}
+#text3 {
+  height: 64px;
+  width: 404px;
+  font-weight: medium;
+  line-height: 150%;
+  font-size: 20px;
+}
+/* footer did not take much time */
+.foot {
+  height: 264px;
+  width: 1440px;
+  position: absolute;
+  top: 3293px;
+}
+#foot1 {
+  height: 36px;
+  width: 113px;
+  position: absolute;
+  top: 52px;
+  left: 80px;
+  font-size: 24px;
+  line-height: 150%;
+}
+#foot2 {
+  height: 40px;
+  width: 184px;
+  position: absolute;
+  top: 176px;
+  left: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#foot3 {
+  height: 168px;
+  width: 187px;
+  position: absolute;
+  top: 48px;
+  left: 736px;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: medium;
+}
+#foot4 {
+  height: 168px;
+  width: 187px;
+  position: absolute;
+  top: 48px;
+  left: 955px;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: medium;
+}
+#foot5 {
+  height: 168px;
+  width: 187px;
+  position: absolute;
+  top: 48px;
+  left: 1173px;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: medium;
+}
+ul > p {
+  margin-top: 12px;
+}

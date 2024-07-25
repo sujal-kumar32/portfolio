@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  box-sizing: border-box;
+}
+/* NAVEBAR TAKEN ME 3 HOURS */
+.navebar {
+  height: 164px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+  color: rgb(223, 204, 204);
+  line-height: 150%;
+  font-size: 20px;
+  font-weight: medium;
+}
+a {
+  text-decoration: none;
+  color: rgb(223, 204, 204);
+}
+#site {
+  height: 30;
+  width: 95px;
+  position: absolute;
+  left: 80px;
+  top: 67px;
+}
+.navebar > .url {
+  height: 30px;
+  width: 310px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 1050px;
+  top: 56;
+  align-items: center;
+}
+
+#projects {
+  height: 30px;
+  width: 79px;
+}
+#about {
+  height: 30px;
+  width: 79px;
+}
+#contact {
+  height: 30px;
+  width: 79px;
+}
+/* body */
+.contactme {
+  height: 137px;
+  width: 624px;
+  position: absolute;
+  top: 244px;
+  left: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#me {
+  height: 77px;
+  width: 624px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: auto;
+  letter-spacing: -2%;
+}
+#subhead {
+  height: 36px;
+  width: 624px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: 150%;
+}
+.fill {
+  height: 488px;
+  width: 626px;
+  position: absolute;
+  top: 413px;
+  left: 80px;
+}
+.first {
+  height: 80px;
+  width: 295px;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#first1 {
+  height: 24px;
+  width: 295px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+}
+#first2 {
+  height: 48px;
+  width: 295px;
+  position: absolute;
+  top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(199, 180, 180);
+  border-radius: 2px;
+}
+#input1 > input {
+  height: 24px;
+  width: 263px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+  border: 0;
+}
+.last {
+  height: 80px;
+  width: 297px;
+
+  position: absolute;
+  left: 327px;
+}
+#last1 {
+  height: 24px;
+  width: 297px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+}
+#last2 {
+  height: 48px;
+  width: 297px;
+  position: absolute;
+  top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(199, 180, 180);
+  border-radius: 2px;
+}
+#input2 > input {
+  height: 24px;
+  width: 265px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+  border: 0;
+}
+.email {
+  height: 80px;
+  width: 626px;
+
+  position: absolute;
+  top: 104px;
+}
+#email1 {
+  height: 24px;
+  width: 626px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+}
+#email2 {
+  height: 48px;
+  width: 626px;
+  position: absolute;
+  top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(199, 180, 180);
+  border-radius: 2px;
+}
+#input3 > input {
+  height: 24px;
+  width: 594px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+  border: 0;
+}
+.message {
+  height: 194px;
+  width: 626px;
+
+  position: absolute;
+  top: 208px;
+}
+#message1 {
+  height: 24px;
+  width: 626px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+}
+#feedback {
+  height: 162px;
+  width: 626px;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 150%;
+  position: absolute;
+  top: 32px;
+  border: 1px solid rgb(199, 180, 180);
+  border-radius: 2px;
+}
+#button {
+  height: 62px;
+  width: 626px;
+  background-color: black;
+  position: absolute;
+  top: 426px;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+  border-radius: 2px;
+}
+#pic {
+  height: 657px;
+  width: 508px;
+  position: absolute;
+  top: 244px;
+  left: 847px;
+
+  background-image: url("images1.jpg");
+  background-size: cover;
+  border-radius: 2%;
+}
+/* footer did not take much time */
+.foot {
+  height: 264px;
+  width: 1440px;
+  position: absolute;
+  top: 1021px;
+}
+#foot1 {
+  height: 36px;
+  width: 113px;
+  position: absolute;
+  top: 52px;
+  left: 80px;
+  font-size: 24px;
+  line-height: 150%;
+}
+#foot2 {
+  height: 40px;
+  width: 184px;
+  position: absolute;
+  top: 176px;
+  left: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#foot3 {
+  height: 168px;
+  width: 187px;
+  position: absolute;
+  top: 48px;
+  left: 736px;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: medium;
+}
+#foot4 {
+  height: 168px;
+  width: 187px;
+  position: absolute;
+  top: 48px;
+  left: 955px;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: medium;
+}
+#foot5 {
+  height: 168px;
+  width: 187px;
+  position: absolute;
+  top: 48px;
+  left: 1173px;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-weight: medium;
+}
+ul > p {
+  margin-top: 12px;
+}
