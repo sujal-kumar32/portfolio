@@ -87,6 +87,8 @@ a {
   background-image: url("images1.jpg");
   background-size: cover;
   border-radius: 2%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #content {
   height: 450px;
@@ -114,6 +116,8 @@ a {
   border-radius: 2%;
   height: 436px;
   width: 624px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #photo2 {
   background-image: url("images3.jpg");
@@ -121,6 +125,8 @@ a {
   border-radius: 2%;
   height: 436px;
   width: 624px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #content2 {
   height: 270px;
@@ -156,6 +162,8 @@ a {
 .photo3 {
   height: 434px;
   width: 404px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #picture1 {
   height: 346px;
@@ -175,6 +183,8 @@ a {
 .photo4 {
   height: 434px;
   width: 404px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #picture2 {
   height: 346px;
@@ -194,6 +204,8 @@ a {
 .photo5 {
   height: 434px;
   width: 404px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #picture3 {
   height: 346px;

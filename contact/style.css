@@ -231,6 +231,8 @@ a {
   background-image: url("images1.jpg");
   background-size: cover;
   border-radius: 2%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 /* footer did not take much time */
 .foot {
