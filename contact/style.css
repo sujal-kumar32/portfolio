@@ -60,6 +60,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
+  border: 5px solid brown;
 }
 #me {
   height: 77px;
@@ -83,6 +86,8 @@ a {
   position: absolute;
   top: 413px;
   left: 80px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 .first {
   height: 80px;
@@ -91,6 +96,9 @@ a {
   position: absolute;
   top: 0px;
   left: 0px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
+  border: 2px solid salmon;
 }
 #first1 {
   height: 24px;
@@ -117,6 +125,7 @@ a {
   font-size: 16px;
   line-height: 150%;
   border: 0;
+  border: none;
 }
 .last {
   height: 80px;
@@ -124,6 +133,9 @@ a {
 
   position: absolute;
   left: 327px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
+  border: 2px solid yellow;
 }
 #last1 {
   height: 24px;
@@ -149,7 +161,7 @@ a {
   font-weight: medium;
   font-size: 16px;
   line-height: 150%;
-  border: 0;
+  border: none;
 }
 .email {
   height: 80px;
@@ -157,6 +169,9 @@ a {
 
   position: absolute;
   top: 104px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
+  border: 2px solid yellowgreen;
 }
 #email1 {
   height: 24px;
@@ -182,7 +197,7 @@ a {
   font-weight: medium;
   font-size: 16px;
   line-height: 150%;
-  border: 0;
+  border: none;
 }
 .message {
   height: 194px;
@@ -190,6 +205,9 @@ a {
 
   position: absolute;
   top: 208px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
+  border: 2px solid chocolate;
 }
 #message1 {
   height: 24px;
@@ -220,6 +238,9 @@ a {
   line-height: 150%;
   color: white;
   border-radius: 2px;
+
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  perspective: 1000px; /* Add this for the 3D effect */
 }
 #pic {
   height: 657px;
@@ -230,7 +251,7 @@ a {
 
   background-image: url("images1.jpg");
   background-size: cover;
-  border-radius: 2%;
+  border-radius: 12.5%;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
   perspective: 1000px; /* Add this for the 3D effect */
 }
